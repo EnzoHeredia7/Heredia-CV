@@ -26,7 +26,7 @@ const Trainers = () => {
     },
     {
       id: 3,
-      trainerImg: "./src/assets/imagenes/Frontendimg.png",
+      trainerImg: "https://www.elaborata.com.br/img/treinamentos/original/163-desenvolvimento-front-end-com-html-css-javascript-e-bootstrap-capa.jpg",
       name: "Front End",
      
       certificates: ["./src/assets/imagenes/Frontend.jpg"] // Replace with actual certificate image URL
@@ -70,7 +70,7 @@ const Trainers = () => {
           {trainerData.map((data) => (
             <div 
               key={data.id} 
-              className='lg:w-[20%] md:w-[30%] sm:w-[40%] w-full lg:h-[30vh] md:h-[53vh] sm:h-[28vh] h-[60vh] rounded-xl overflow-hidden cursor-pointer relative group border border-transparent hover:border-green-700 hover:shadow-lg transition-all duration-700 ease-in-out'>
+              className='lg:w-[25%] md:w-[30%] sm:w-[48%] w-full lg:h-[30vh] md:h-[53vh] sm:h-[30vh] h-[60vh] rounded-xl overflow-hidden cursor-pointer relative group border border-transparent hover:border-green-700 hover:shadow-lg transition-all duration-700 ease-in-out'>
               <img src={data.trainerImg} alt="trainer image" className='w-full h-full object-cover group-hover:opacity-50 transition-opacity duration-300 ease-in-out'/>
               <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out'>
                 <div className='text-center'>
