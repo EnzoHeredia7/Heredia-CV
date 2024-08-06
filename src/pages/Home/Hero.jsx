@@ -78,21 +78,21 @@ const Hero = () => {
             <p className='lg:text-lg md:text-base sm:text-base text-base text-gray-300 font-medium mb-6 text-center'>{data.desc}</p>
             
             {/* Button Container */}
-            <div className='flex gap-4'>
-              <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2'>
-                <FaGithub className='w-6 h-6 mr-2' />
-                GitHub
-              </SecondaryBtn>
-              <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2'>
-                <FaLinkedin className='w-6 h-6 mr-2' />
-                Linkedin
-              </SecondaryBtn>
-              <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2'>
-                <MdOutlineMail className='w-6 h-6 mr-2' />
-                Email
-              </SecondaryBtn>
-          
-            </div>
+            <div className='flex flex-wrap gap-4 justify-center'>
+  <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
+    <FaGithub className='w-6 h-6 mr-2' />
+    GitHub
+  </SecondaryBtn>
+  <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
+    <FaLinkedin className='w-6 h-6 mr-2' />
+    LinkedIn
+  </SecondaryBtn>
+  <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
+    <MdOutlineMail className='w-6 h-6 mr-2' />
+    Email
+  </SecondaryBtn>
+</div>
+
           </div>
         </SwiperSlide>
         

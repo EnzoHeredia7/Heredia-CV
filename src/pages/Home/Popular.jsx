@@ -37,7 +37,7 @@ const Popular = () => {
                 <div className='w-full h-auto flex items-center gap-x-5 gap-y-6 lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap'>
                     {exerciseData.map((data) => (
                         <div key={data.id} className='relative lg:w-[24%] md:w-[48%] sm:w-[48%] w-full h-auto rounded-lg overflow-hidden hover:shadow-lg hover:shadow-green-400/50 ease-out duration-700 cursor-pointer'>
-                            <div className="relative w-full lg:h-[30vh] md:h-[33vh] sm:h-[38vh] h-[40vh]">
+                            <div className="relative w-full lg:h-[40vh] md:h-[33vh] sm:h-[38vh] h-[40vh]">
                                 <video 
                                     src={data.exerciseVideo} 
                                     className='w-full h-full object-cover'

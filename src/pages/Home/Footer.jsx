@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='w-full h-auto flex items-center justify-center bg-black/30 flex-col py-3 lg:px-20 md:px-16 sm:px-6 px-4'>
       <div className='w-full h-auto flex items-start lg:justify-between md:justify-between sm:justify-center justify-center gap-5 mb-2 flex-wrap'>
         <div className='lg:w-[30%] md:w-[30%] sm:w-full w-full h-auto p-2 flex lg:items-start md:items-start sm:items-center items-center flex-col justify-center'>
-          <Link to="/" className="text-3xl text-green-800 hover:text-green-300 ease-out duration-700 font-semibold tracking-[0.0.5rem] flex items-end gap-x-1 relative">
+          <Link to="/" className="text-3xl justify-center text-green-800 hover:text-green-300 ease-out duration-700 font-semibold tracking-[0.0.5rem] flex items-end gap-x-1 relative">
             HEREDIA, ENZO 
           </Link>
           <div className='w-full h-auto space-y-2'>
