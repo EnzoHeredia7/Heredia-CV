@@ -26,7 +26,7 @@ const Trainers = () => {
     },
     {
       id: 3,
-      trainerImg: "./src/assets/imagenes/frontend-logo.png",
+      trainerImg: "./src/assets/imagenes/Frontendimg.png",
       name: "Front End",
      
       certificates: ["./src/assets/imagenes/Frontend.jpg"] // Replace with actual certificate image URL

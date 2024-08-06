@@ -26,7 +26,7 @@ const About = () => {
       {/* Image Section */}
       <div className='image-container lg:w-[28%] md:w-[58%] sm:w-[55%] w-full h-auto relative overflow-hidden rounded-lg'>
         <img 
-          src="./src/assets/about.jpg" 
+          src="./src/assets/Abouts-img.jpg" 
           alt="About image"
           className='w-full lg:h-[50vh] md:h-[50vh] sm:h-[50vh] h-[55vh] object-cover' 
         />
