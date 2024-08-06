@@ -1,6 +1,5 @@
 import { Laptop } from 'lucide-react';
 import React, { useState } from 'react';
-import PrimaryBtn from '../../components/Button/PrimaryBtn';
 import { FaTimes } from 'react-icons/fa';
 import SecondaryBtn from '../../components/Button/SecondaryBtn';
 
@@ -28,7 +27,7 @@ const Trainers = () => {
     {
       id: 3,
       trainerImg: "./src/assets/imagenes/frontend-logo.png",
-      name: "Front End ",
+      name: "Front End",
      
       certificates: ["./src/assets/imagenes/Frontend.jpg"] // Replace with actual certificate image URL
     },
