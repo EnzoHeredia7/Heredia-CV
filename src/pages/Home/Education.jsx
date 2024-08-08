@@ -70,7 +70,7 @@ const Education = () => {
           {trainerData.map((data) => (
             <div 
               key={data.id} 
-              className='lg:w-[25%] md:w-[30%] sm:w-[20%] w-full lg:h-[30vh] md:h-[30vh] sm:h-[20vh] h-[40vh] rounded-xl overflow-hidden cursor-pointer relative group border border-transparent hover:border-green-700 hover:shadow-lg transition-all duration-700 ease-in-out'>
+              className='lg:w-[25%] md:w-[30%] sm:w-[20%] w-full lg:h-[30vh] md:h-[30vh] sm:h-[20vh] h-[30vh] rounded-xl overflow-hidden cursor-pointer relative group border border-transparent hover:border-green-700 hover:shadow-lg transition-all duration-700 ease-in-out'>
               <img src={data.trainerImg} alt="trainer image" className='w-full h-full object-cover group-hover:opacity-50 transition-opacity duration-300 ease-in-out'/>
               <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out'>
                 <div className='text-center'>
