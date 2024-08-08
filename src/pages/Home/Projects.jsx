@@ -21,6 +21,12 @@ const Projects = () => {
             image: "src/assets/ecommerce.png",
             name: "E-COMMERCE",
             url: "https://ecommerce-sin-terminar-a8wn.vercel.app/"
+        },
+        {
+            id: 4,
+            image: "src/assets/seleccion.png",
+            name: "E-COMMERCE",
+            url: "https://enzoheredia7.github.io/Seleccion-Argentina-con-juego/"
         }
    
     ];
