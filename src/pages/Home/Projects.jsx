@@ -1,35 +1,40 @@
 import React from 'react';
 import { Laptop } from 'lucide-react';
 import SecondaryBtn from '../../components/Button/SecondaryBtn';
+import votriImage from '../../assets/votri.png';
+import empleadosImage from '../../assets/empleados.png';
+import ecommerceImage from '../../assets/ecommerce.png';
+import seleccionImage from '../../assets/seleccion.png';
 
 const Projects = () => {
     const exerciseData = [
         {
             id: 1,
-            image: "src/assets/votri.png",
+            image: votriImage,
             name: "VOTRI GYM",
             url: "https://votri1.vercel.app/"
         },
         {
             id: 2,
-            image: "src/assets/empleados.png",
+            image: empleadosImage,
             name: "PLANILLA RR.HH",
             url: "https://planilla-recursos-humanos.vercel.app/"
         },
         {
             id: 3,
-            image: "src/assets/ecommerce.png",
+            image: ecommerceImage,
             name: "E-COMMERCE",
             url: "https://ecommerce-sin-terminar-a8wn.vercel.app/"
         },
         {
             id: 4,
-            image: "src/assets/seleccion.png",
-            name: "E-COMMERCE",
+            image: seleccionImage,
+            name: "SELECCION ARGENTINA",
             url: "https://enzoheredia7.github.io/Seleccion-Argentina-con-juego/"
         }
-   
+
     ];
+
 
     return (
         <>
