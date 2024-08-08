@@ -7,7 +7,7 @@ const Input = ({ type, id, name, placeholder, className, value, onChange }) => {
         type={type}
         id={id}
         name={name}
-        className={`w-full h-11 bg-transparent border border-gray-700 outline-none px-3 focus:outline-none focus:border-green-600 rounded-md text-base text-gray-200 font-medium ${className}`}
+        className={`w-full h-11 bg-transparent border border-gray-700 outline-none px-3 focus:outline-none focus:border-green-600 rounded-md text-base text-gray-200 font-medium cursor-pointer ${className}`}
         placeholder={placeholder}
         value={value}
         onChange={onChange}

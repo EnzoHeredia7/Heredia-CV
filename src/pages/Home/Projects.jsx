@@ -1,30 +1,28 @@
 import React from 'react';
 import { Laptop } from 'lucide-react';
-import Video from '../../assets/pag-votri.mp4';
-import PrimaryBtn from '../../components/Button/PrimaryBtn';
+import SecondaryBtn from '../../components/Button/SecondaryBtn';
 
-const Popular = () => {
+const Projects = () => {
     const exerciseData = [
         {
             id: 1,
-            exerciseVideo: Video,
+            image: "src/assets/votri.png",
             name: "VOTRI GYM",
+            url: "https://votri1.vercel.app/"
         },
         {
             id: 2,
-            exerciseVideo: Video,
-            name: "VOTRI GYM",
+            image: "src/assets/empleados.png",
+            name: "PLANILLA RR.HH",
+            url: "https://planilla-recursos-humanos.vercel.app/"
         },
         {
             id: 3,
-            exerciseVideo: Video,
-            name: "VOTRI GYM",
-        },
-        {
-            id: 4,
-            exerciseVideo: Video,
-            name: "VOTRI GYM",
-        },
+            image: "src/assets/ecommerce.png",
+            name: "E-COMMERCE",
+            url: "https://ecommerce-sin-terminar-a8wn.vercel.app/"
+        }
+   
     ];
 
     return (
@@ -34,30 +32,24 @@ const Popular = () => {
                     <Laptop className='w-5 h-5 -rotate-55 text-green-400' />
                     Projects
                 </h6>
-                <div className='w-full h-auto flex items-center gap-x-5 gap-y-6 lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap'>
+                <div className='w-full h-auto flex items-center justify-center gap-x-5 gap-y-6 lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap'>
                     {exerciseData.map((data) => (
                         <div key={data.id} className='relative lg:w-[24%] md:w-[48%] sm:w-[48%] w-full h-auto rounded-lg overflow-hidden hover:shadow-lg hover:shadow-green-400/50 ease-out duration-700 cursor-pointer'>
                             <div className="relative w-full lg:h-[40vh] md:h-[33vh] sm:h-[38vh] h-[40vh]">
-                                <video 
-                                    src={data.exerciseVideo} 
+                                <img 
+                                    src={data.image} 
+                                    alt={data.name} 
                                     className='w-full h-full object-cover'
-                                    muted
-                                    loop
-                                    onMouseEnter={e => e.currentTarget.play()}
-                                    onMouseLeave={e => {
-                                        e.currentTarget.pause();
-                                        e.currentTarget.currentTime = 0;
-                                    }}
                                 />
                             </div>
-                            <div className='absolute bottom-0 w-full py-4 px-3 bg-green-900/100 bg-opacity-50 z-10'>
+                            <div className='text-center absolute bottom-0 w-full py-4 px-3 bg-green-900/100 bg-opacity-50 z-10'>
                                 <h1 className='text-lg text-white font-semibold mb-1'>
                                     {data.name}
                                 </h1>
-                                <div className='w-full h-auto flex items-center gap-x-2'>
-                                    <PrimaryBtn>
+                                <div className='w-full h-auto flex items-center justify-center gap-x-2'>
+                                    <SecondaryBtn onClick={() => window.open(data.url, '_blank')}>
                                         Open Page    
-                                    </PrimaryBtn>
+                                    </SecondaryBtn>
                                 </div>
                             </div>
                         </div>
@@ -68,4 +60,4 @@ const Popular = () => {
     );
 }
 
-export default Popular;
+export default Projects;

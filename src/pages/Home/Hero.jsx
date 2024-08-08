@@ -79,18 +79,24 @@ const Hero = () => {
             
             {/* Button Container */}
             <div className='flex flex-wrap gap-4 justify-center'>
-  <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
-    <FaGithub className='w-6 h-6 mr-2' />
-    GitHub
-  </SecondaryBtn>
-  <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
-    <FaLinkedin className='w-6 h-6 mr-2' />
-    LinkedIn
-  </SecondaryBtn>
-  <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
-    <MdOutlineMail className='w-6 h-6 mr-2' />
-    Email
-  </SecondaryBtn>
+            <a href="https://github.com/EnzoHeredia7" target="_blank" rel="noopener noreferrer">
+        <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
+          <FaGithub className='w-6 h-6 mr-2' />
+          GitHub
+        </SecondaryBtn>
+      </a>
+      <a href="https://www.linkedin.com/in/enzo-ariel-heredia-b764b223b/" target="_blank" rel="noopener noreferrer">
+        <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
+          <FaLinkedin className='w-6 h-6 mr-2' />
+          LinkedIn
+        </SecondaryBtn>
+      </a>
+      <a href="mailto:enzoarielheredia@gmail.com" target="_blank" rel="noopener noreferrer">
+        <SecondaryBtn className='flex items-center h-14 text-xl font-semibold rounded-full px-6 py-2 sm:w-full md:w-auto'>
+          <MdOutlineMail className='w-6 h-6 mr-2' />
+          Email
+        </SecondaryBtn>
+      </a>
 </div>
 
           </div>
