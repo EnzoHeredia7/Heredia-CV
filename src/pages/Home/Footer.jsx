@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
           <div className='w-full h-auto space-y-2'>
           <div className='w-full h-auto flex items-center lg:justify-start md:justify-start sm:justify-center justify-center gap-x-2 text-gray-400 hover:text-green-600 ease-out duration-300 cursor-pointer'>
-  <a href="mailto:Enzoarielheredia@gmail.com" className='flex items-center'>
+  <a href="mailto:enzoarielheredia@gmail.com" className='flex items-center'>
     <MdOutlineEmail className='w-5 h-5' />
     <p className='text-base'>Enzoarielheredia@gmail.com</p>
   </a>
@@ -29,7 +29,7 @@ const Footer = () => {
   </a>
 </div>
 <div className='w-full h-auto flex items-center lg:justify-start md:justify-start sm:justify-center justify-center gap-x-2 text-gray-400 hover:text-green-600 ease-out duration-300 cursor-pointer'>
-  <a href="https://www.linkedin.com/in/enzo-ariel-heredia" target="_blank" rel="noopener noreferrer" className='flex items-center'>
+  <a href="https://www.linkedin.com/in/enzo-ariel-heredia-b764b223b/" target="_blank" rel="noopener noreferrer" className='flex items-center'>
     <FaLinkedin className='w-5 h-5' />
     <p className='text-base'>Enzo Ariel Heredia</p>
   </a>

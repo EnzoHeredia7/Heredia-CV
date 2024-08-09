@@ -15,8 +15,8 @@ const Banner = () => {
           >
         <div className='w-full h-full bg-black/60 absolute top-0 left-0 -z-10'></div>
         <h1 className='lg:text-5xl md:text-5xl sm:-4xl text-4xl font-bold text-white uppercase mb-4 text-center'>
-        If you can  <span className='text-green-600'>Imagine it </span>, you can {''}
-          <span className='text-green-600'> Program it</span>
+        If you can  <span className='text-green-600'>Think it </span>, you can {''}
+          <span className='text-green-600'> Code it</span>
         </h1>
         <p className='text-lg text-white font-medium mb-8 text-center'>
             Programming the future
