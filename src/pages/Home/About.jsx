@@ -31,7 +31,7 @@ const About = () => {
           className='w-full lg:h-[50vh] md:h-[50vh] sm:h-[50vh] h-[55vh] object-cover' 
         />
         <a
-          href="src/assets/Heredia-CV.pdf"
+          href="src/assets/CV-Heredia.pdf"
           download
         >
         <SecondaryBtn className='lg:w-full sm:w-full w-full px-7 py-2 text-base font-medium uppercase justify-center'>

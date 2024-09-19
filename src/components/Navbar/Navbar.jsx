@@ -61,7 +61,7 @@ const Navbar = () => {
                 </li>
               ))}
                   <a
-          href="src/assets/Heredia-CV.pdf"
+          href="src/assets/CV-Heredia.pdf"
           download
             className='text-base text-white bg-green-600 font-medium px-3 py-1.5 rounded-full flex items-center border border-green-600 gap-x-1 hover:border-green-400 hover:bg-green-400 ease-out duration-500'
         >
