@@ -2,7 +2,7 @@ import React from 'react'
 import { Laptop } from 'lucide-react'
 import { FaBootstrap, FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaJs, FaReact } from 'react-icons/fa'
 import { BsBookmarkCheck, BsBookmarkDash, BsBookmarkPlus, BsCheckSquare, BsDashSquare, BsPlusSquare } from 'react-icons/bs'
-import { SiDevexpress, SiExpress, SiFirebase, SiNextdotjs, SiNodedotjs, SiPostman, SiTailwindcss, SiVisualstudiocode } from 'react-icons/si'
+import { SiDevexpress, SiExpress, SiFirebase, SiNextdotjs, SiNodedotjs, SiPostman, SiTailwindcss, SiTypescript, SiVisualstudiocode } from 'react-icons/si'
 
 const Technology = () => {
   return (
@@ -51,6 +51,12 @@ const Technology = () => {
   <BsCheckSquare className="w-6 h-6 text-green-600 mr-3"/>
   <p className="text-gray-400 lg:text-3xl md:text-lg sm:text-lg text-base flex items-center">
     Bootstrap <FaBootstrap className="ml-3 w-9 h-9"/>
+  </p>
+</div>
+<div className="flex items-center">
+  <BsCheckSquare className="w-6 h-6 text-green-600 mr-3"/>
+  <p className="text-gray-400 lg:text-3xl md:text-lg sm:text-lg text-base flex items-center">
+    Typescript <SiTypescript className="ml-3 w-9 h-9"/>
   </p>
 </div>
 
